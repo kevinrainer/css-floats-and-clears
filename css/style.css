@@ -1,0 +1,302 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ECECEA;
+}
+h3 {
+	text-align: center;
+	margin: 50px auto;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	margin: 20px;
+}
+
+p {
+	color: white;
+}
+
+
+.wrapper {
+	margin-top: 50px;
+	margin-bottom: 500px;
+
+}
+
+.container {
+	background-color: #000;
+	height: auto;
+	width: 700px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+}
+
+
+/*Image 2*/
+
+
+.white-border-box {
+	float: left;
+	border: 2px solid white;
+	padding: 10px;
+	padding-bottom: 50px;
+	margin: 10px;
+}
+
+
+.grey-box-2 {
+	float: left;
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	padding: 8px;
+}
+
+.caption {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 25px;
+}
+
+
+
+
+/* Image 3 */
+
+.greybox {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+
+
+.greybox-three {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	margin-right: 18px;
+}
+
+.greybox-four {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 5px;
+}
+
+/*Image#4*/
+
+
+.container-four {
+	float: right;
+	width: 75%;
+}
+
+
+
+/*Image 5*/
+
+.greybox-sm {
+	background-color: grey;
+	float: left;
+	position: relative;
+	height: 50px;
+	width: 50px;
+}
+
+.col-right {
+	float: right;
+	width: 92%;
+}
+
+.col-left {
+	float: left;
+	width: 7%;
+}
+
+/*comment-wrap {
+	width: 100%;
+}*/
+
+textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.form-button {
+	float: right;
+
+}
+
+/*Image#6*/
+
+h5 {
+	color: white;
+	font-size: 28px;
+	text-align: center;
+}
+
+
+
+/*
+.
+.
+.             Image 7
+.
+.
+*/
+
+
+.container-seven {
+	background-color: black;
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.greybox-seven {
+	background-color: grey;
+	height: 100px;
+	width: auto;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+.left-col-seven {
+	float: left;
+	width: 40%;
+}
+
+.right-col-seven {
+	float: left;
+	width: 59%;
+}
+
+.text-muted {
+	color: grey;
+}
+
+.greybox-eight {
+	background-color: grey;
+	height: 100px;
+	width: auto;
+	margin: 0px;
+}
+
+.left-col-eight {
+	float: left;
+	width: 60%;
+}
+
+.right-col-eight {
+	float: left;
+	width: 40%;
+}
+
+.small {
+	font-size: 12px;
+}
+
+/*image 9*/
+
+.lead-nine {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.left-box-nine {
+	width: 30%;
+	float: left;
+}
+
+.right-box-nine {
+	width: 69%;
+	float: left;
+}
+
+.button-nine {
+	margin-top: 20px;
+	padding: 2.5px;
+}
+
+.grey-box-nine {
+	float: left;
+	background-color: grey;
+	height: 150px;
+	width: 150px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+/* Image 10*/
+
+.container-10 {
+	background-color: #000;
+	height: auto;
+	width: 1000px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.left-box-10 {
+	float: left;
+	width: 60%;
+}
+
+
+.right-box-10 {
+	float: left;
+	width: 40%;
+}
+
+.grey-box-10 {
+	float: left;
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	padding: 8px;
+}
+
+.caption-10 {
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+}
+
+
+
+
+
+
+
+/* Clear fix */
+.clear:after {
+	content : ""; /* empty string or invisible element */
+	clear: both;
+	display: block;
+}
